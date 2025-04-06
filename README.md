@@ -54,11 +54,8 @@ This command will create the following directory structure:
 .
 ├── src
 │   ├── app
-│   │   ├── controllers
-│   │   ├── models
-│   │   ├── routes
-│   │   └── services
 │   ├── configs
+│   ├── index.ts
 │   ├── middlewares
 │   ├── tests
 │   └── utils
@@ -147,3 +144,9 @@ Feel free to refer to the project’s documentation for detailed guides on how t
 ---
 
 Let's improve the back-end development world, one scalable architecture at a time!
+
+### New in v1.0.4
+* Improved CLI: Added commander library for flexible and convenient use
+* New structure: service files are located in a separate folder in the app folder
+* Improved CLI typing, file splitting
+* Fixed bugs with code structure and formatting
